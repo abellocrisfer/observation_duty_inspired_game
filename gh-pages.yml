@@ -21,7 +21,7 @@ jobs:
         with:
           channel: 'stable'
       - run: flutter pub get
-      - run: flutter build web --base-href "/${{ github.event.repository.name }}/"
+      - run: flutter build web --base-href "/observation_duty_inspired_game/"
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
